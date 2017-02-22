@@ -1,0 +1,69 @@
+@media (max-device-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+a:hover {
+    text-decoration: none;
+}
+a:visited {
+    color: #555;
+}
+a {
+    text-decoration: underline;
+    color: #000;
+}
+
+span {
+    position: absolute;
+    right: 5px;
+    display: inline-block;
+}
+
+span .button {
+    background: -webkit-linear-gradient(bottom, #CCC, rgba(0, 0, 0, 0) 40%);
+    background: -o-linear-gradient(bottom, #CCC, rgba(0, 0, 0, 0) 40%);
+    background: linear-gradient(to top, #CCC, rgba(0, 0, 0, 0) 40%);
+    height: 1.3em;
+    display: inline-block;
+    border: 1px solid #CCC;
+    margin-left: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+}
+
+span .button a:visited {
+    color: #000;
+}
+
+div {
+    height: 1.5em;
+    padding-left: 5px;
+    border: 1px solid black;
+    margin-top: 3px;
+}
+
+div.description {
+    height: unset;
+    border: unset;
+    margin-top: unset;
+    margin-left: 2em;
+    margin-right: 2em;
+    border: 1px solid black;
+    border-top: 0px;
+    border-radius: 0 0 5px 5px;
+}
+
+div a {
+    vertical-align: middle;
+}
+
+.even {
+    background-color: #FAFAFA;
+}
+
+.uneven {
+    background-color: #EFEFEF;
+}
