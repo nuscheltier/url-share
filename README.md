@@ -8,6 +8,6 @@ If you encounter problems saving your data check if your `database.json` is writ
 ## Requirements
 PHP Backend:
  * PHP > 5.3
- * any Webserver
+ * any Webserver  
 Frontend:
  * any Webbrowser should suffice

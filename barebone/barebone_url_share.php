@@ -2,7 +2,7 @@
     $database = json_decode(file_get_contents('database.json'), true);
     $edit_mode = isset($_GET["edit"]);
 
-    if(isset($_POST["title"]) & isset($_POST["url"])) { //a valid url is posted
+    if(isset($_POST["title"]) && isset($_POST["url"])) { //a valid url is posted
         $new_entry = array(
             "title" => htmlspecialchars($_POST["title"]),
             "url" => htmlspecialchars($_POST["url"]),
